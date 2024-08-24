@@ -39,7 +39,7 @@ export default function ShippingAddress() {
             token: localStorage.getItem("token")
           },
           params: {
-            url: "http://localhost:5173"
+            url: "https://fresh-cart-three-topaz.vercel.app/cart"
           }
         })
         .then( ({ data }) =>{
